@@ -1,0 +1,255 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* scrolling effect */
+html{
+    scroll-behavior: smooth;
+}
+#navbar{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    
+}
+#navbar::before {
+    content: "";
+    background-color: #45282863;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: .8;
+
+}
+#logo{
+    /* margin: 10px 10px; */
+    padding: 18px 5px;
+    margin-top: -9px;
+    margin-bottom: -13px;
+    }
+    #logo img{
+    margin: 5px  5px;
+    height: 50px;
+    width: 100px;
+    
+    }
+    #navbar ul{
+        display: flex;
+    }
+    #navbar ul li{
+        list-style: none;
+        font-size: 1.3rem;
+        padding: 17px 33px;
+    }
+    #navbar ul li a{
+        display: block;
+        padding: 5px 10px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+    #navbar ul li a:hover{
+        background-color: white;
+        color: rgb(33, 33, 33);
+    }
+
+
+
+
+    #home{
+        display: flex;
+        flex-direction: column;
+        padding: 3px 200px;
+        /* align-items: center;
+        justify-content: center;*/
+        height: 510px;
+        margin-top: 150px;
+        
+    }
+    #home::before{
+        content: "";
+        background: url(images/black-white2.jpg) no-repeat center center/cover;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        top: 0px;
+        left: 0px;
+        opacity: .9;
+    }
+    .h-primary{
+        font-size: 2.8rem;
+        padding: 12px;
+        color: white;
+        font-family: 'Bree Serif', serif;
+        margin-left: 350px;
+        
+    }
+    .h-secondary{
+        font-size: 1.9rem;
+    }
+    #home h1{
+        font-size: 4rem;
+    }
+    #home p{
+        color: white;
+        /* text-align: center; */
+        font-size: 1.3rem;
+        font-family: 'Bree Serif', serif;
+        margin-left: 580px;
+        
+    }
+    .btn{
+        padding: 6px 20px;
+        border: 2px solid white;
+        background: brown;
+        margin: 10px 10px;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 460px;
+        
+    }
+    button:hover{
+        background-color: orange;
+        box-shadow: 5px 5px 5px red;
+        transform:scale(1.1);
+    }
+    button{
+        height: 40px;
+        width: 20%;
+        float: inline-start;
+        margin-top: 40px;
+        border-radius: 15px;
+        transition-duration: .3s;
+        transition-property: all;
+        transition-timing-function: ease-in-out;
+        border: 3px solid #737171;
+    }
+
+
+    #service{
+        margin: 20px 10px;
+        display: flex;
+        /* border: 2px solid red; */
+    }
+    #service .box{
+        border: 2px solid red;
+        margin: 2px 20px;
+        border-radius: 8px;
+        text-align: center;
+        background-color: #2b1f1feb;
+    
+    }
+    .box{
+        color: white;
+        height: 300PX;
+        width: 33%;
+    }
+    #service .box img{
+        /* border: 2px solid red; */
+        border-radius: 76px;
+        height: 150px;
+        width: 150px;
+        margin: auto;
+        display: block;
+        /*margin auto kaam tab karega jab display block laga hua hoga */
+    }
+    #services-container h1{
+        color: black;
+        text-align: center;
+        /* display: block; */
+    }
+    .center{
+        text-align: center;     /*ye jo .center hai vo h-secondary center ke bich me center ke space ka kamal hai*/ 
+        
+    }
+    .box p{
+        padding: 12px;
+        font-family: 'Bree Serif', serif;
+    }
+
+    
+
+    #exp::before{
+        content: "";
+        background: url(images/black-white2.jpg) no-repeat center center/cover;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        /* top: 0px;
+        left: 0px; */
+        opacity: .8;
+    }
+    #exp{
+        height: 721px;
+    }
+    .div_exp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .div_exp img{
+    height: 636px;
+    width: 551px;
+    margin-top: 50px;
+    /* padding-left:165px ;
+    padding-right: 50px;*/
+    border-radius: 15px;
+   }
+   .experience2{
+    margin: 10px 10px;
+    padding-right: 150px;
+   }
+
+   .h-experience{
+    font-size: 3rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: aquamarine;
+    padding-left: 30px;
+   }
+
+
+
+
+   #molo{
+    height: 170px;
+    /* border: 2px solid red; */
+    }
+    #mologram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #391e1ebf;
+    }
+    .div_mologram{
+        /* border: 2px solid red; */
+        height: 170px;
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .div_mologram i{
+        font-size: 50px;
+    }
+    .div_mologram :hover{
+        color: whitesmoke;
+    }
+
+
+    .ml2 {
+        font-weight: 900;
+        font-size: 3.5em;
+      }
+      
+      .ml2 .letter {
+        display: inline-block;
+        line-height: 1em;
+      }
