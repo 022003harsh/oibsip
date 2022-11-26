@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> -->
+</head>
+
+<body>
+    <div class="sector">
+    <div>
+    <h2 class="ml9">
+        <span class="text-wrapper">
+            <span class="letters" style="color: white;">Temperature Converter !!!</span>
+        </span>
+    </h2>
+</div>
+<div class="box2">
+    <div class="container animated zoomIn">
+        <div class="input_box">
+            <label for="celsius">Celsius</label>
+            <input type="number" id="celsius" oninput="celToFar()" placeholder="value">
+        </div>
+        <div class="input_box">
+            <label for="fahrenheit">Fahrenheit</label>
+            <input type="number" id="fahrenheit" oninput="farToCel()" placeholder="value">
+        </div>
+    </div>
+</div>
+</div>
+
+    <script src="https://unpkg.com/kursor"></script>
+    <script>
+        new kursor({
+            type: 3
+        })
+        new kursor({
+  color: 'rgba(225,150,54,.8)'
+})
+    </script>
+    
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script> -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+        
